@@ -7,5 +7,5 @@ function totalFine(fare) {
   }
 }
 
-const result = totalFine(200);
+const result = totalFine(1);
 console.log(result);
