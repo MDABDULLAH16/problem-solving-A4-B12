@@ -21,5 +21,5 @@ const text3 = ["hack", "me"];
 const text4 = false;
 const text5 = "Cy   bar- At  tac k  ";
 const text6 = "Serv er : : Do wn";
-const result = onlyCharacter(text);
+const result = onlyCharacter("hello\nworld");
 console.log(result);
