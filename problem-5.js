@@ -2,6 +2,8 @@ function resultReport(marks) {
   if (!Array.isArray(marks)) {
     return "Invalid";
   }
+  if (marks.length === 0) return { finalScore: 0, pass: 0, fail: 0 };
+
   let totalMarks = 0;
   let failSubject = 0;
   let passSubject = 0;
